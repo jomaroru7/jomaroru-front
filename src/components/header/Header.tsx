@@ -7,13 +7,13 @@ const Header: React.FC = () => {
   const { t } = useTranslation();
   return (
     <div className="bg-secondary flex justify-center">
-      <div className="flex flex-col justify-between min-h-96 bg-secondary text-main max-w-5xl p-4">
-        <div className="flex flex-row justify-between px-4 py-4">
+      <header className="flex flex-col justify-between min-h-96 bg-secondary w-5xl p-4">
+        <div className="flex flex-row justify-between py-4">
           <h3 className="text-2xl">Jomaroru</h3>
           <ThemeToggle />
           <LanguageSwitcher />
         </div>
-        <div className="flex flex-col-reverse items-center lg:flex-row justify-center mb-5 gap-8">
+        <div className="flex flex-col-reverse items-center lg:flex-row lg:justify-between justify-center mb-5 gap-8">
           <div className="flex flex-col max-w-lg gap-4">
             <h1 className="text-6xl">
               {t('presentation')}
@@ -28,7 +28,7 @@ const Header: React.FC = () => {
             style={{ backgroundImage: `url(./yo_cafe.png)` }}
           ></div>
         </div>
-      </div>
+      </header>
     </div>
   )
 }
