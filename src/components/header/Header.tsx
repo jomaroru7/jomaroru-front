@@ -11,20 +11,20 @@ function Header() {
         <ThemeToggle />
         <LanguageSwitcher />
       </div>
-      <div className="flex flex-col items-center lg:flex-row justify-center mb-5 gap-8">
-        <div
-          className="w-70 h-70 rounded-full bg-center bg-cover"
-          style={{ backgroundImage: `url(./yo_cafe.png)` }}
-        ></div>
+      <div className="flex flex-col-reverse items-center lg:flex-row justify-center mb-5 gap-8">
+
         <div className="flex flex-col w-lg gap-4">
-          <h1 className="text-3xl">
+          <h1 className="text-6xl">
             {t('presentation')}
           </h1>
-          <p>
+          <p className="text-xl">
             {t('developer')}
           </p>
         </div>
-
+        <div
+          className="w-90 h-90 rounded-full bg-center bg-cover"
+          style={{ backgroundImage: `url(./yo_cafe.png)` }}
+        ></div>
       </div>
     </div>
   )

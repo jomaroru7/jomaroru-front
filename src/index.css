@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "tailwindcss";
 
 :root {
@@ -7,7 +8,11 @@
     --clr-primary: #B900FF;
     --clr-secondary: #9400D3;
     --clr-border: #D9D9D9;
-    --clr-inverse: var(--clr-primary) ;
+    --clr-inverse: var(--clr-primary);
+    font-family: "Roboto Mono", Sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.15em;
 }
 
 .dark {
@@ -33,7 +38,7 @@
         background-color: var(--clr-primary);
     }
 
-    .bg-inverse{
+    .bg-inverse {
         background-color: var(--clr-inverse);
     }
 
