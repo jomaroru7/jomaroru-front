@@ -14,19 +14,19 @@ const Experience = () => {
                 company: 'Sngular',
                 dateStart: new Date(2019,8,1),
                 dateEnd: new Date(2024,9,1),
-                tecnologies: ['React', 'Javascript', 'HTML5', 'Wordpress']
+                tecnologies: ['React', 'Javascript', 'HTML5', 'CSS3', 'Wordpress', 'Git', 'Tailwind', 'Bootstrap', 'Typescript']
             },
             {
                 company: 'MRG Software',
                 dateStart: new Date(2019,4,1),
                 dateEnd: new Date(2019,7,1),
-                tecnologies: ['Wordpress', 'Prestashop', 'PHP', 'Javascript']
+                tecnologies: ['Wordpress', 'Prestashop', 'PHP', 'Javascript', 'HTML5', 'CSS3']
             },
             {
                 company: 'Iconos Software',
                 dateStart: new Date(2017, 6,1),
                 dateEnd: new Date(2017,11,1),
-                tecnologies: ['C#', '.NET', 'Wordpress', 'Prestashop']
+                tecnologies: ['C#', '.NET', 'Wordpress', 'Prestashop', 'HTML5', 'CSS3']
             }
         ])
     },[])

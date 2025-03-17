@@ -15,7 +15,7 @@ const JobsGrid = ({ jobs }: JobsGridProps) => {
                         <JobCard job={job} />
                     </div>
                 ))}
-                <div className="hidden lg:absolute left-1/2 h-full border-l border-color-primary"></div>
+                <div className="hidden lg:flex absolute left-1/2 h-full border-l border-color-primary"></div>
             </div>
         </div>
     );

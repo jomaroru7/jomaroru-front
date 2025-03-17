@@ -21,7 +21,7 @@ const Skill = ({ skill }: SkillProps) => {
     }
     return (
         <div className="relative group flex flex-col justify-center items-center">
-            <div className="flex flex-col w-28 h-28 justify-around items-center transition-transform transform group-hover:blur-2xl group-hover:scale-110 duration-300">
+            <div className="flex flex-col w-24 h-24 justify-around items-center transition-transform transform group-hover:blur-2xl group-hover:scale-110 duration-300">
                 <p className="text-xl">{skill.name}</p>
                 <div className="text-6xl">
                     {skill.icon}

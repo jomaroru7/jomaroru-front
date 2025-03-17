@@ -7,7 +7,7 @@ type SkillsGridProps = {
 
 const SkillsGrid = ({ skills }: SkillsGridProps) => {
     return (
-        <div className="flex flex-row flex-wrap w-full gap-5.5">
+        <div className="flex flex-row flex-wrap w-full gap-5.5 justify-around">
             {
                 skills.map(skill => (
                     <Skill key={skill.name} skill={skill} />
