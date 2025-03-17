@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 import SkillsGrid from "./SkillsGrid";
 import { useEffect, useState } from "react";
 import { Skill } from "../../types";
-import { FaReact, FaJs, FaHtml5, FaCss3, FaPhp, FaWordpress, FaJava, FaGit, FaGithub } from "react-icons/fa";
+import { FaReact, FaJs, FaHtml5, FaCss3, FaPhp, FaWordpress, FaJava, FaGithub } from "react-icons/fa";
 import { RiNextjsFill } from "react-icons/ri";
 
 
