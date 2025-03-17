@@ -16,7 +16,7 @@ const LanguageSwitcher: React.FC = () => {
         >
             <div
                 className={`absolute w-7 h-7 bg-cover bg-center rounded-full transition-transform duration-300 ease-in-out ${i18n.language === 'en' ? 'translate-x-0' : 'translate-x-7.5'}`}
-                style={{ backgroundImage: `url(${i18n.language === 'en' ? './us.png' : './es.png'})` }}
+                style={{ backgroundImage: `url(${i18n.language === 'en' ? './images/us.png' : './images/es.png'})` }}
             />
         </div>
     );

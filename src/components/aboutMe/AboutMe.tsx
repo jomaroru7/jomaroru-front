@@ -16,7 +16,7 @@ const AboutMe = () => {
                 </aside>
                 <main className="flex flex-col max-w-lg">
                     <h3 className="text-3xl">
-                        {t('whatCouldIApport')}
+                        {t('Skills')}
                     </h3>
                     <h4 className="text-lg">
                         {t('resumeAboutMe')}

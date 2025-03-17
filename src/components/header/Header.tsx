@@ -25,7 +25,7 @@ const Header: React.FC = () => {
           </div>
           <div
             className="w-70 h-70 lg:w-100 lg:h-100 rounded-full bg-center bg-cover"
-            style={{ backgroundImage: `url(./yo_cafe.png)` }}
+            style={{ backgroundImage: `url(./images/yo_cafe.png)` }}
           ></div>
         </div>
       </header>
