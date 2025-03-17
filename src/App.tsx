@@ -1,4 +1,5 @@
 import AboutMe from "./components/aboutMe/AboutMe"
+import Experience from "./components/experience/Experience"
 import Header from "./components/header/Header"
 import Separator from "./components/Separator"
 
@@ -9,6 +10,8 @@ function App() {
       <Header />
       <Separator left={false}/>
       <AboutMe />
+      <Separator left={true}/>
+      <Experience/>
     </div>
   )
 }

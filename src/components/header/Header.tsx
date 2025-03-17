@@ -7,7 +7,7 @@ const Header: React.FC = () => {
   const { t } = useTranslation();
   return (
     <div className="flex justify-center">
-      <div className="fixed top-0 flex flex-row justify-between py-4 px-4 w-full lg:w-5xl bg-main">
+      <div className="fixed top-0 flex flex-row justify-between py-4 px-4 w-full lg:w-5xl bg-main z-10">
         <h3 className="text-2xl">Jomaroru</h3>
         <ThemeToggle />
         <LanguageSwitcher />

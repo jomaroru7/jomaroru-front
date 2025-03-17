@@ -5,3 +5,10 @@ export type Skill = {
     icon: JSX.Element,
     level: number
 }
+
+export type Job = {
+    company: string,
+    dateStart: Date,
+    dateEnd: Date,
+    tecnologies: string[]
+}

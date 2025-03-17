@@ -7,7 +7,7 @@
     --clr-text: #212121;
     --clr-primary: #B900FF;
     --clr-secondary: #9400D3;
-    --clr-tertiary: #340249;
+    --clr-tertiary: #cd6ff5;
     --clr-border: #D9D9D9;
     --clr-inverse: var(--clr-primary);
     font-family: "Roboto Mono", Sans-serif;
@@ -21,7 +21,7 @@
     --clr-bg-secondary: #1E1E1E;
     --clr-text: #E0E0E0;
     --clr-secondary: #6A00A8;
-    --clr-tertiary: #cd6ff5;
+    --clr-tertiary: var(--clr-primary);
     --clr-border: #292929;
     --clr-inverse: #4a5565;
 }
@@ -42,6 +42,10 @@
 
     .bg-inverse {
         background-color: var(--clr-inverse);
+    }
+
+    .bg-tertiary {
+        background-color: var(--clr-tertiary);
     }
 
     .text-main {
