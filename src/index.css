@@ -65,7 +65,7 @@
     }
 
     .border-color-primary {
-        border-color: var(--clr-border);
+        border-color: var(--clr-primary);
     }
 
 }
