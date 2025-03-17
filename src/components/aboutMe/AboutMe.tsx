@@ -74,7 +74,7 @@ const AboutMe = () => {
                 </aside>
                 <main className="flex flex-col max-w-lg flex-1">
                     <h3 className="text-5xl pb-4">
-                        {t('Skills')}
+                        {t('skills')}
                     </h3>
                     <SkillsGrid skills={skills}/>
                 </main>
