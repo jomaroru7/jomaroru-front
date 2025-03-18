@@ -1,6 +1,7 @@
 import AboutMe from "./components/aboutMe/AboutMe"
 import Experience from "./components/experience/Experience"
 import Header from "./components/header/Header"
+import Projects from "./components/projects/Projects"
 import Separator from "./components/Separator"
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
       <AboutMe />
       <Separator left={true}/>
       <Experience/>
+      <Separator left={false}/>
+      <Projects/>
     </div>
   )
 }

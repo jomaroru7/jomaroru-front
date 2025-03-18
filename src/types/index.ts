@@ -12,3 +12,10 @@ export type Job = {
     dateEnd: Date,
     tecnologies: string[]
 }
+
+export type Project = {
+    name: string,
+    image: string,
+    description: string,
+    link?: string
+}

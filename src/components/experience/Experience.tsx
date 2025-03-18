@@ -14,7 +14,7 @@ const Experience = () => {
                 company: 'Sngular',
                 dateStart: new Date(2019, 8, 1),
                 dateEnd: new Date(2024, 9, 1),
-                tecnologies: ['React', 'Javascript', 'HTML5', 'CSS3', 'Wordpress', 'Git', 'Tailwind', 'Bootstrap', 'Typescript']
+                tecnologies: ['React', 'Javascript', 'HTML5', 'CSS3', 'Wordpress', 'Git', 'Tailwind', 'Bootstrap', 'Typescript', 'Java']
             },
             {
                 company: 'MRG Software',

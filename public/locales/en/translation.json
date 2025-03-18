@@ -5,5 +5,9 @@
     "resumeAboutMe": "I have extensive experience in front-end development, especially with React. I've also worked with WordPress for much of my career, so I'm also well-versed in the backend.",
     "skills": "Skills",
     "level": "Level",
-    "experience": "Experience"
+    "experience": "Experience",
+    "mainProjects": "Main projects",
+    "subYourVideoTitle": "Subtitule your video",
+    "subYourVideoDescription" : "Subtitule your video based in our IA transcription."
+
 }
