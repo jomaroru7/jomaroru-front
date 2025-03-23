@@ -5,7 +5,7 @@ type ProjectProps = {
 }
 const Project = ({ project }: ProjectProps) => {
     return (
-        <article className="flex flex-col group transform duration-300 hover:scale-105 border border-color-primary rounded-4xl p-4 justify-between items-center h-100 w-72">
+        <article className="relative flex flex-col group transform duration-300 hover:scale-105 border border-color-primary rounded-4xl p-4 justify-between items-center h-100 w-72">
             <h3 className="text-2xl">{project.name}</h3>
             <div className="w-60 lg:perspective-800">
                 <img
@@ -15,6 +15,7 @@ const Project = ({ project }: ProjectProps) => {
                 />
             </div>
             <p>{project.description}</p>
+            { project.link && <a className="absolute w-full h-full" href={project.link} target="blank"></a> }
         </article>
     )
 }

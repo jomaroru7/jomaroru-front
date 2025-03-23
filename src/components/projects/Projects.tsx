@@ -13,7 +13,8 @@ const Projects = () => {
             {
                 name: t('subYourVideoTitle'),
                 image: './images/subtitulatuvideo.png',
-                description: t('subYourVideoDescription')
+                description: t('subYourVideoDescription'),
+                link:"https:\\subtitulatuvideo.es"
             }
         ])
     }, [i18n.language])
