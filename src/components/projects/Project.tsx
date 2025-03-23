@@ -10,7 +10,7 @@ const Project = ({ project }: ProjectProps) => {
             <div className="w-60 lg:perspective-800">
                 <img
                     src={project.image}
-                    className="w-full lg:transform lg:rotate-x-20 lg:-rotate-y-20 shadow-lg transition-transform duration-300 group-hover:rotate-x-0 group-hover:rotate-y-0 group-hover:scale-105"
+                    className="mx-auto w-auto max-h-52 lg:transform lg:rotate-x-20 lg:-rotate-y-20 shadow-lg transition-transform duration-300 group-hover:rotate-x-0 group-hover:rotate-y-0 group-hover:scale-105"
                     alt={project.name}
                 />
             </div>

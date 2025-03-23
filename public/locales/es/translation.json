@@ -9,5 +9,14 @@
     "mainProjects": "Proyectos principales",
     "subYourVideoTitle": "Subtitula tu video",
     "subYourVideoDescription" : "Subtitula tu video gracias a la transcripción generada por la IA.",
-    "downloadCV": "Descarga mi CV"
+    "downloadCV": "Descarga mi CV",
+    "secondaryProjects": "Proyectos secundarios",
+    "caloriesTrackerTitle": "Control de calorías",
+    "caloriesTrackerDescription": "Lleva el control de tus calorías tanto ganadas como perdidas.", 
+    "patientsTitle": "Lista de pacientes veterinarios",
+    "patientsDescription": "Gestiona el listado de pacientes de tu cliínica veterinaria.", 
+    "expensesControlTitle": "Control de gastos",
+    "expensesControlDescription": "Lleva el control de tus gastos y su clasificación." 
+
+
 }

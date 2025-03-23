@@ -9,6 +9,13 @@
     "mainProjects": "Main projects",
     "subYourVideoTitle": "Subtitule your video",
     "subYourVideoDescription" : "Subtitule your video based in our IA transcription.",
-    "downloadCV": "Download my CV"
+    "downloadCV": "Download my CV",
+    "secondaryProjects": "Secondary projects",
+    "caloriesTrackerTitle": "Calories tracker",
+    "caloriesTrackerDescription": "Track your calories gained and losed.", 
+    "patientsTitle": "Veterinary patients list",
+    "patientsDescription": "Manage your patients of your veterinary clinic.", 
+    "expensesControlTitle": "Expenses control",
+    "expensesControlDescription": "Have the control of your expenses and clasify them." 
 
 }
