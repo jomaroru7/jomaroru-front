@@ -8,7 +8,7 @@ const Projects = () => {
     const [mainProjects, setMainProjects] = useState<Project[]>([])
     const [secondaryProjects, setSecondaryProjects] = useState<Project[]>([])
 
-    useEffect(() => {
+    const setProjects = () => {
         setMainProjects([
             {
                 name: t('subYourVideoTitle'),
@@ -34,6 +34,14 @@ const Projects = () => {
                 description: t('patientsDescription')
             },
         ])
+    }
+
+    useEffect(() => {
+        setProjects();
+    }, [])
+
+    useEffect(() => {
+        setProjects();
     }, [i18n.language])
 
     return (
