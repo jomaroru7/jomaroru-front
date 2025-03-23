@@ -24,7 +24,7 @@ const Header: React.FC = () => {
             <SocialGrid />
           </div>
           <div
-            className="w-70 h-70 lg:w-100 lg:h-100 rounded-full bg-center bg-cover"
+            className="w-70 h-70 lg:w-100 lg:h-100 rounded-full bg-center bg-cover border-6 border-color-primary"
             style={{ backgroundImage: `url(./images/yo_cafe.png)` }}
           ></div>
         </div>
