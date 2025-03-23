@@ -1,48 +1,37 @@
-import { useEffect, useState } from "react"
+import { useMemo } from "react"
 import { Project } from "../../types"
 import { useTranslation } from "react-i18next"
 import ProjectsGrid from "./ProjectsGrid"
 
 const Projects = () => {
-    const { t, i18n } = useTranslation()
-    const [mainProjects, setMainProjects] = useState<Project[]>([])
-    const [secondaryProjects, setSecondaryProjects] = useState<Project[]>([])
+    const { t } = useTranslation()
 
-    const setProjects = () => {
-        setMainProjects([
-            {
-                name: t('subYourVideoTitle'),
-                image: './images/subtitulatuvideo.png',
-                description: t('subYourVideoDescription'),
-                link: "https:\\subtitulatuvideo.es"
-            }
-        ])
-        setSecondaryProjects([
-            {
-                name: t('caloriesTrackerTitle'),
-                image: './images/calories_tracker.png',
-                description: t('caloriesTrackerDescription')
-            },
-            {
-                name: t('expensesControlTitle'),
-                image: './images/expenses_control.png',
-                description: t('expensesControlDescription')
-            },
-            {
-                name: t('patientsTitle'),
-                image: './images/patient_tracker.png',
-                description: t('patientsDescription')
-            },
-        ])
-    }
+    const mainProjects: Project[] = useMemo(() => [
+        {
+            name: t('subYourVideoTitle'),
+            image: './images/subtitulatuvideo.png',
+            description: t('subYourVideoDescription'),
+            link: "https:\\subtitulatuvideo.es"
+        }
+    ], [t])
 
-    useEffect(() => {
-        setProjects();
-    }, [])
-
-    useEffect(() => {
-        setProjects();
-    }, [i18n.language])
+    const secondaryProjects: Project[] = useMemo(() => [
+        {
+            name: t('caloriesTrackerTitle'),
+            image: './images/calories_tracker.png',
+            description: t('caloriesTrackerDescription')
+        },
+        {
+            name: t('expensesControlTitle'),
+            image: './images/expenses_control.png',
+            description: t('expensesControlDescription')
+        },
+        {
+            name: t('patientsTitle'),
+            image: './images/patient_tracker.png',
+            description: t('patientsDescription')
+        },
+    ], [t])
 
     return (
         <div className="flex justify-center">
