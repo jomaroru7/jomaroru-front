@@ -5,6 +5,8 @@ import Projects from "./components/projects/Projects"
 import Separator from "./components/Separator"
 
 function App() {
+  const version="0.3.1";
+  console.log(version);
 
   return (
     <div className="flex flex-col min-h-screen bg-main text-main">
