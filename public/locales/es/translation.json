@@ -16,7 +16,16 @@
     "patientsTitle": "Lista de pacientes veterinarios",
     "patientsDescription": "Gestiona el listado de pacientes de tu cliínica veterinaria.", 
     "expensesControlTitle": "Control de gastos",
-    "expensesControlDescription": "Lleva el control de tus gastos y su clasificación." 
+    "expensesControlDescription": "Lleva el control de tus gastos y su clasificación.",
+    "emailCopied": "Email copiado al portapapeles.",
+    "contact": "Contacto",
+    "copy": "Copiar",
+    "message": "Mensaje",
+    "sendEmail": "Enviar email",
+    "writeMessageHere": "Escribe tu mensaje aquí",
+    "contactWith": "Contactar con"
+
+
 
 
 }

@@ -16,6 +16,13 @@
     "patientsTitle": "Veterinary patients list",
     "patientsDescription": "Manage your patients of your veterinary clinic.", 
     "expensesControlTitle": "Expenses control",
-    "expensesControlDescription": "Have the control of your expenses and clasify them." 
+    "expensesControlDescription": "Have the control of your expenses and clasify them.",
+    "emailCopied": "Email copied to the clipboard.",
+    "contact": "Contact",
+    "copy": "Copy",
+    "message": "Message",
+    "sendEmail": "Send email",
+    "writeMessageHere": "Write your mesage here...",
+    "contactWith": "Contact with"
 
 }
