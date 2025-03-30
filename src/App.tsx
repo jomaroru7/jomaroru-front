@@ -5,7 +5,7 @@ import Projects from "./components/projects/Projects"
 import Separator from "./components/Separator"
 
 function App() {
-  const version="0.3.7";
+  const version="0.3.8";
   console.log("Version "+version);
 
   return (
