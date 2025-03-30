@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next"
 import ProjectsGrid from "./ProjectsGrid"
 
 const Projects = () => {
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
 
     const mainProjects: Project[] = useMemo(() => [
         {
@@ -13,7 +13,7 @@ const Projects = () => {
             description: t('subYourVideoDescription'),
             link: "https:\\subtitulatuvideo.es"
         }
-    ], [t])
+    ], [i18n.language])
 
     const secondaryProjects: Project[] = useMemo(() => [
         {
@@ -31,7 +31,7 @@ const Projects = () => {
             image: './images/patient_tracker.png',
             description: t('patientsDescription')
         },
-    ], [t])
+    ], [i18n.language]) 
 
     return (
         <div className="flex justify-center">
