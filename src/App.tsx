@@ -6,7 +6,7 @@ import Separator from "./components/Separator"
 
 function App() {
   const version="0.3.7";
-  console.log(version);
+  console.log("Version "+version);
 
   return (
     <div className="flex flex-col min-h-screen bg-main text-main">
