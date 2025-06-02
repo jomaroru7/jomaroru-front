@@ -23,6 +23,9 @@
     "message": "Message",
     "sendEmail": "Send email",
     "writeMessageHere": "Write your mesage here...",
-    "contactWith": "Contact with"
+    "contactWith": "Contact with",
+    "tenderEngineTitle": "Tender search engine",
+    "tenderEngineSubtitle": "Search the best tenders for your company with IA."
+
 
 }

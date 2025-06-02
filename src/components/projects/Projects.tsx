@@ -12,6 +12,12 @@ const Projects = () => {
             image: './images/subtitulatuvideo.png',
             description: t('subYourVideoDescription'),
             link: "https://subtitulatuvideo.es"
+        },
+        {
+            name: t('tenderEngineTitle'),
+            image: './images/tender_engine.jpeg',
+            description: t('tenderEngineSubtitle'),
+            link: "https://github.com/jomaroru7/tender-search-engine-front"
         }
     ], [i18n.language])
 
